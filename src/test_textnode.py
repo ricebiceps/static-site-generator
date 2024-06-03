@@ -27,11 +27,10 @@ class TestTextNode(unittest.TestCase):
         self.assertEqual(node, node2)
 
     def test_repr(self):
-        node = TextNode("This is a text node", text_type_text, "https://www.boot.dev")
+        node = TextNode("This is a text node", "text", "https://www.boot.dev")
         self.assertEqual(
             "TextNode(This is a text node, text, https://www.boot.dev)", repr(node)
         )
-
 
 if __name__ == "__main__":
     unittest.main()
