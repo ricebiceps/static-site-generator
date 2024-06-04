@@ -1,3 +1,3 @@
 # Static site generator
 
-This is a work in progress static site generator I am mostly writing in python. 
+This is a static site generator I am mostly writing in python. It takes md files in the content folder, and generates a static site.
